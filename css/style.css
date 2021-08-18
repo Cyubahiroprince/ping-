@@ -1,0 +1,173 @@
+*
+{
+    padding: 0px;
+margin: 0px;
+text-decoration: none;
+font-family: 'Libre Franklin';
+}
+body
+{
+margin-top: 50px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align:center;
+}
+header
+{
+    text-align:center;
+}
+
+.input1
+{
+    border-style: solid;
+    font-size: 12px;
+    border-radius: 20px;
+    height: 28px;
+    color:rgb(57, 59, 61);
+    padding: 4px;
+    width: 292px;
+    margin: 30px 9px 10px 20px;
+    border-color: rgb(223, 236, 247);
+    text-indent: 20px;
+}
+.input2
+{
+
+    color: aliceblue;
+    background-color:rgb(72, 110, 235);
+    border-style: solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 42px;
+    border-color: rgb(228, 226, 226);
+}
+.input2:hover
+{
+    background-color:rgb(106, 132, 219) ;
+}
+section form
+{
+  margin-bottom: 40px; 
+}
+h1
+{
+color: rgb(172, 163, 163);
+font-size: 35px;
+font-weight:80;
+margin: 20px 20px 12px 20px;
+}
+header p
+{
+
+    color: #575656;
+}
+strong
+{
+    color: black;
+}
+header
+{
+    text-align: center;
+}
+.logo img
+{
+    margin: auto;
+    width: 70px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+section img
+{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-right: 0%;
+}
+section p 
+{
+    font-size: 12px;
+    color: rgb(238, 30, 30);
+    margin-right: 13%;
+}
+footer a:hover {
+    background-color:rgb(106, 132, 219);
+    border-radius: 60%;
+    color: #fff;
+} 
+footer div a:hover
+ {
+
+    border-radius: 50%;
+    background-color:rgb(72, 110, 235);
+    color: white;
+    font-size: 15px;
+    border-width: 4px;
+    border-color:rgb(72, 110, 235);
+
+
+}
+footer div a{
+
+    border-radius: 50px 50px 50px 50px;
+    font-size: 15px;
+    border-style: solid;
+    border-color: rgb(252, 252, 252);
+    color:rgb(72, 110, 235);
+    margin: 10% 1% 10%;
+}
+footer p
+{
+    margin-top: 1%;
+color: lightgray;
+}
+@media screen and (max-width:490px)
+{
+    body
+    {
+        justify-content: center;
+        flex-direction: column;
+margin-top: 30px;
+margin-bottom: 10px;
+    }
+    form
+    {
+      flex-direction: column;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    .input2
+    {
+        height: 43px;
+        width: 310px;
+        margin-left: 5%;
+        border-radius: 50px;
+    }
+    section img
+    {
+width: 350px;
+height: 200px;
+margin-bottom: 30px;
+    }
+    h1
+    {
+margin: 12px;
+font-size: 24px;
+    }
+    header
+    {
+margin-left: 30px;
+    } 
+    section img
+    {
+margin-left: 4%;
+width:300px ;
+height: 200px;
+    } 
+    footer
+    {
+font-size: 80%;
+    }
+}
+    
